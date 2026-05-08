@@ -70,8 +70,8 @@ See [PostCSS] docs for examples for your environment.
 
 Example:
 ```js
-const stripe = require('postcss-strip');
-const postcssPlugins = [stripe({
+const strip = require('postcss-strip');
+const postcssPlugins = [strip({
 	functionName : 'removeUnit'
 })]
 ```
@@ -79,6 +79,6 @@ const postcssPlugins = [stripe({
 ### `functionName`
 
 Type: `string`  
-Default: `stripe`
+Default: `strip`
 
-The name of the funciton to use in your CSS. By default it is `strip()`
+The name of the function to use in your CSS. By default it is `strip()`
